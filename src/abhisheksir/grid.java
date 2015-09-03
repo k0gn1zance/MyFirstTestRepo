@@ -29,7 +29,7 @@ public class grid
       
       if (browser.equalsIgnoreCase("firefox"))
       {
-         System.out.println(" Executing on FireFox now");
+         System.out.println(" Executing on FireFox with chrome");
          String Node = "http://localhost:4444/wd/hub";
          DesiredCapabilities cap = DesiredCapabilities.firefox();
          cap.setBrowserName("firefox");
