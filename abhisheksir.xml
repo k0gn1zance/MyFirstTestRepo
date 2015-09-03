@@ -1,0 +1,11 @@
+<suite name="testSuit">
+ <test name="toolsQA">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+
+      <class name="abhisheksir.grid"/>
+     
+    </classes>
+
+ </test>
+</suite>
